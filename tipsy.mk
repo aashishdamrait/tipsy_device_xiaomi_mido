@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/xiaomi/mido/validus_mido.mk)
+$(call inherit-product, device/xiaomi/mido/tipsy_mido.mk)
 
 # Inherit some common Validus stuff.
 $(call inherit-product, vendor/tipsy/config/common_full_phone.mk)
