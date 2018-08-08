@@ -26,7 +26,7 @@
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
-    <integer name="config_deviceHardwareKeys">83</integer>
+    <!-- <integer name="config_deviceHardwareKeys">83</integer> -->
     
     <!-- Indicate whether to allow the device to suspend when the screen is off
          due to the proximity sensor.  This resource should only be set to true
@@ -42,11 +42,11 @@
      <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
      
      <!-- Whether device has button lights support -->
-    <bool name="config_button_brightness_support">true</bool>
+     <!-- <bool name="config_button_brightness_support">true</bool> -->
 
     <!-- Button brightness -->
-     <integer name="config_buttonBrightnessSettingDefault">255</integer>
-     <bool name="config_deviceHasVariableButtonBrightness">true</bool>
+    <!-- <integer name="config_buttonBrightnessSettingDefault">255</integer>
+     <bool name="config_deviceHasVariableButtonBrightness">true</bool> -->
 
     <!-- If true, the display will be shifted around in ambient mode. -->
     <bool name="config_enableBurnInProtection">true</bool>
